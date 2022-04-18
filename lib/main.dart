@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widget_sample/animations/align_aimation.dart';
 import 'package:flutter_widget_sample/animations/tween_animated_builder_sample.dart';
 import 'animations/animated_builder_sample.dart';
+import 'animations/animated_builder_sample2.dart';
 import 'animations/container_animated_sample.dart';
 import 'animations/crossfade_animated_sample.dart';
+import 'async/future_builder.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -29,7 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child:CrossfadeAnimatedSample()
+        child:FutureBuilderSample()
       ),
     );
   }
